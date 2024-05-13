@@ -1,0 +1,22 @@
+[
+    {
+        "timestamp": 1683234000,
+        "speed": "450.53",
+        "direction": "54.88"
+    },
+    {
+        "timestamp": 1683234060,
+        "speed": "454.77",
+        "direction": "87.21"
+    },
+    {
+        "timestamp": 1683234120,
+        "speed": "440.89",
+        "direction": "126.68"
+    },
+    {
+        "timestamp": 1683234180,
+        "speed": "586.11",
+        "direction": "122.17"
+    }
+]
