@@ -3,6 +3,8 @@ export default defineNuxtConfig({
     head: {
       title: 'БПЛА',
     },
+    baseURL: '/DRONE/', // baseURL: '/<repository>/'
+    buildAssetsDir: 'assets', // don't use "_" at the begining of the folder name to avoids nojkill conflict
   },
   plugins: [
     '~/plugins/vuetify',
