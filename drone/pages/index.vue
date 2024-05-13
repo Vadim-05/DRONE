@@ -1,6 +1,6 @@
 <template>
   <div class="main-content">
-    <NuxtImg class="drone position-absolute" :style="droneStyle" src="/drone.jpg"/>
+    <img class="drone position-absolute" :style="droneStyle" src="/drone.jpg"/> 
     <v-btn class="stop-flight position-absolute" v-if="button" @click="startFlight">start</v-btn>
     <v-btn class="stop-flight position-absolute" v-else-if="button === false" @click="stopFlight(true)">stop</v-btn>
   </div>
